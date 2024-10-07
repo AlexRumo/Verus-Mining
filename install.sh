@@ -50,7 +50,7 @@ then
     fi
   done
 fi
-wget https://raw.githubusercontent.com/Semen1984/Verus-Mining/main/config.json -P ~/ccminer
+wget https://raw.githubusercontent.com/AlexRumo/Verus-Mining/main/config.json -P ~/ccminer
 
 if [ -f ~/ccminer/ccminer ]
 then
