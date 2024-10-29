@@ -38,7 +38,7 @@ curl -o- -k https://raw.githubusercontent.com/AlexRumo/Verus-Mining/main/install
 Now adjust pools, mineraddress+workername, and network settings for the API.
 exit with `<CTRL>-X` followed by `y` and an `<ENTER>`
 ```bash
-nano config.json
+nano ~/ccminer/config.json
 ```
 
 ## Usage:
@@ -52,6 +52,11 @@ Monitoring the miner:
 
 Terminating the miner:
 `screen -X -S CCminer quit`
+
+Autostart
+'crontab -e'
+'@reboot ~/ccminer/start.sh![image](https://github.com/user-attachments/assets/618b0175-9169-4e3f-9609-16989aca732d)'
+
 
 ### I accept no warranties or liabilities on this repo. It is supplied as a service.
 ### Use at your own risk!!!
