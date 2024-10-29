@@ -58,7 +58,7 @@ Terminating the miner:
 crontab -e
 ```
 ```bash
-@reboot ~/ccminer/start.sh)
+@reboot ~/ccminer/start.sh
 ```
 
 ### I accept no warranties or liabilities on this repo. It is supplied as a service.
