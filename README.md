@@ -53,10 +53,13 @@ Monitoring the miner:
 Terminating the miner:
 `screen -X -S CCminer quit`
 
-Autostart
-'crontab -e'
-'@reboot ~/ccminer/start.sh![image](https://github.com/user-attachments/assets/618b0175-9169-4e3f-9609-16989aca732d)'
-
+## Autostart
+```bash
+crontab -e
+```
+```bash
+@reboot ~/ccminer/start.sh)
+```
 
 ### I accept no warranties or liabilities on this repo. It is supplied as a service.
 ### Use at your own risk!!!
